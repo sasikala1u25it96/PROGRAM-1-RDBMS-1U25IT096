@@ -5,4 +5,4 @@ CREATE TABLE Student(
   Age INT,
   Department VARCHAR(30),
 );
-desc student;
+desc student; 
