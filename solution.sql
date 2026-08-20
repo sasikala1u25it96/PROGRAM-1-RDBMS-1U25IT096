@@ -1,9 +1,7 @@
-CREATE DATABASE CollegeDB;
+CREATE DATABASE collegeDB;
 USE collegeDB;
-CREATE TABLE Student(
-  studentID INT PRIMAY KEY,
-  studentName VARCHAR(50),
-  Age INT,
-  Department VARCHAR(30),
+CREATE TABLE Department (
+     DepartmentID NUMBER(5) PRIMARY KEY,
+     DepartmentName VARCHAR(20) NOT NULL,
+     HOD VARCHAR(20) NOT NULL
 );
-desc student; 
