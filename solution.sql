@@ -1,7 +1,7 @@
 CREATE DATABASE collegeDB;
 USE collegeDB;
 CREATE TABLE Department (
-     DepartmentID NUMBER(5) PRIMARY KEY,
+     DepartmentID INT(5) PRIMARY KEY,
      DepartmentName VARCHAR(20) NOT NULL,
      HOD VARCHAR(20) NOT NULL
 );
